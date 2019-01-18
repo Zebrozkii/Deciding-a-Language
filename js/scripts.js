@@ -9,28 +9,27 @@ var firstChoice;
 var secondChoice;
 if(theName){
   if(theEnviroment==="Large Company or Business Software"||theEnviroment==="Enterprise-level Company or High Performance Applications"){
-    if(interest1==="C#"){
+    if(interest1==="csharp"){
       firstChoice=interest1;
       }else{
         firstChoice=interest1;
       }
   }else{
-    if(interest2==="Ruby"){
+    if(interest2==="ruby"){
       secondChoice=interest2;
 
-    }else if(interest2==="CSS"){
+    }else if(interest2==="css"){
       secondChoice=interest2;
     }else{
       secondChoice=interest2;
-      }
+    }
   }
-  if (finale==="Italian") {
+if(finale==="Italian"){
+  $(".container").find('#' + firstChoice).show();
 
-  }else{
-
-  }
-
-
+}else {
+  $('.container').find('#' + secondChoice).show();
+}
 
 
 }else {
