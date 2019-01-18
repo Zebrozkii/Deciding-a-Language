@@ -4,6 +4,7 @@ var theName = $("input#name").val();
 var theEnviroment = $("#enviroment").val();
 var interest1 =$("#interest1").val();
 var interest2=$("#interest2").val();
+var finale=$("#finale").val();
 var firstChoice;
 var secondChoice;
 if(theName){
@@ -23,7 +24,13 @@ if(theName){
       secondChoice=interest2;
       }
   }
-  
+  if (finale==="Italian") {
+
+  }else{
+
+  }
+
+
 
 
 }else {
