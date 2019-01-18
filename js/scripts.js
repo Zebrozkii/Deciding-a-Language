@@ -12,7 +12,6 @@ if(theName){
       firstChoice=interest1;
       }else{
         firstChoice=interest1;
-        alert(firstChoice);
       }
   }else{
     if(interest2==="Ruby"){
@@ -22,9 +21,10 @@ if(theName){
       secondChoice=interest2;
     }else{
       secondChoice=interest2;
-
-    }
+      }
   }
+  
+
 
 }else {
   alert("Please Enter A Name!!!!");
