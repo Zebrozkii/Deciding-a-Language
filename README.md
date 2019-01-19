@@ -16,11 +16,11 @@ _{This program has you answer a number of questions to narrow down what programm
 * _and a result should appear_
 * _this is just used to help if your uncertain on what you want to take_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_{I would be very surprised if there isnt anybug or something wrong with this please contact me if something is found. }_
 
 ## Support and contact details
 
