@@ -13,3 +13,13 @@
 #ruby{
   display: none;
 }
+.nice{
+  text-align: center;
+}
+#formLanguage{
+  width:500px;
+  margin: 0 auto;
+}
+button{
+  margin-top: 10px;
+}

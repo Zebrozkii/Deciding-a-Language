@@ -8,33 +8,39 @@ var finale=$("#finale").val();
 var firstChoice;
 var secondChoice;
 if(theName){
-  if(theEnviroment==="Large Company or Business Software"||theEnviroment==="Enterprise-level Company or High Performance Applications"){
-    if(interest1==="csharp"){
-      firstChoice=interest1;
-      }else{
-        firstChoice=interest1;
-      }
-  }else{
-    if(interest2==="ruby"){
-      secondChoice=interest2;
-
-    }else if(interest2==="css"){
-      secondChoice=interest2;
-    }else{
-      secondChoice=interest2;
-    }
+  firstChoice=interest1;
+  secondChoice=interest2;
+  if (finale==="Italian") {
+    $(".container").find('#' + firstChoice).show();
+  }else {
+    $(".container").find('#' + secondChoice).show();
   }
-if(finale==="Italian"){
-  $(".container").find('#' + firstChoice).show();
-
-}else {
-  $('.container').find('#' + secondChoice).show();
-}
-
-
+  $(".name").text(theName);
 }else {
   alert("Please Enter A Name!!!!");
 }
 event.preventDefault();
 });
 });
+// if(theEnviroment==="Large Company or Business Software"||theEnviroment==="Enterprise-level Company or High Performance Applications"){
+//   if(interest1==="csharp"){
+//     firstChoice=interest1;
+//     }else{
+//       firstChoice=interest1;
+//     }
+// }else{
+//   if(interest2==="ruby"){
+//     secondChoice=interest2;
+//
+//   }else if(interest2==="css"){
+//     secondChoice=interest2;
+//   }else{
+//     secondChoice=interest2;
+//   }
+// }
+// if(finale==="Italian"){
+// $(".container").find('#' + firstChoice).show();
+//
+// }else {
+// $('.container').find('#' + secondChoice).show();
+// }
