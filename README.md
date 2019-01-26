@@ -10,11 +10,11 @@ _{This program has you answer a number of questions to narrow down what programm
 
 ## Setup/Installation Requirements
 
-* _First come to the webpage_
-* _then fill out each section_
-* _click the submit button_
-* _and a result should appear_
-* _this is just used to help if your uncertain on what you want to take_
+* _First visit the git hub repository link:https://github.com/Zebrozkii/Deciding-a-Language _
+* _download the file green ,button on the right_
+* _Open the file once downloaded_
+* _then open the index file_
+* _fill out questions to see what language you should take._
 
 
 
